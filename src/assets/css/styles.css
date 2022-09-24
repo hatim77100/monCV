@@ -104,6 +104,9 @@
  .h-full {
   height: 100%;
  }
+ .justify-evenly {
+  justify-content: space-evenly;
+ }
 
  /* --------padding----- */
  .pl-4 {
@@ -150,4 +153,20 @@
 }
 .decoration-none {
   text-decoration: none;
+}
+.font-bold {
+  font-weight: 700;
+}
+.skill {
+  background-color: #262626;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #0fffb7;
+  border-radius: 2px;
+  width: 50%;
+}
+.skill-level {
+  background: #0fffb7;
+  width: 70%;
+  height: 10px;
 }
