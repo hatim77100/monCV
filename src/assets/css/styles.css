@@ -17,13 +17,13 @@
 .font-thin {
   font-weight: 100;
 }
-.font-normal	{
+.font-normal {
   font-weight: 400;
 }
-  .font-bold {
+.font-bold {
   font-weight: 700;
 }
-.font-medium	{
+.font-medium {
   font-weight: 500;
 }
 
@@ -54,15 +54,23 @@
   background: rgb(16, 7, 141);
 }
 .bg-gradient-to-b {
-  background: linear-gradient(to bottom right, rgb(184, 172, 235), rgb(192, 217, 238));
+  background: linear-gradient(
+    to bottom right,
+    rgb(184, 172, 235),
+    rgb(192, 217, 238)
+  );
 }
 .bg-gradient-to-r {
-  background: linear-gradient(to bottom right, rgb(184, 172, 235), rgb(192, 217, 238));
+  background: linear-gradient(
+    to bottom right,
+    rgb(184, 172, 235),
+    rgb(192, 217, 238)
+  );
 }
 
 /* ------- Height ad Width ------*/
 
-.h-0-5	{
+.h-0-5 {
   height: 0.125rem; /* 2px */
 }
 .h-2-5 {
@@ -125,7 +133,9 @@
 .capitalize {
   text-transform: capitalize;
 }
-
+.text-xl {
+  font-size: 2rem; /* 20px */
+}
 /* -------Grid --------- */
 
 .grid-cols-3 {
@@ -228,7 +238,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.pt-0-5	{
+.pt-0-5 {
   padding-top: 1rem; /* 2px */
 }
 .pt-4 {
@@ -240,7 +250,7 @@
 .pb-4 {
   padding-bottom: 1rem;
 }
-.pb-0-5	{
+.pb-0-5 {
   padding-bottom: 0.125rem; /* 2px */
 }
 
@@ -272,5 +282,5 @@
   display: block;
 }
 .tracking-wide {
-  letter-spacing: 0.025em
-};
+  letter-spacing: 0.025em;
+}
