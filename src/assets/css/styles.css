@@ -474,6 +474,12 @@
   .sm-mt-2 {
     margin-top: 0.5rem;
   }
+  .sm-mt-4 {
+    margin-top: 1rem;
+  }
+  .sm-mb-4 {
+    margin-top: 1rem;
+  }
 
   /* ---------GRID------------ */
 
@@ -530,7 +536,7 @@
     opacity: 0.8;
   }
 
-  /* ------- Color ---------*/
+  /* ------- Colors ---------*/
 
   .txt-violet {
     color :#f2d6f3
@@ -549,6 +555,9 @@
   .txt-gray {
     color: #333;
   } 
+  .txt-blue {
+    color: #620196;
+  }
 
   /*--------- Position ------*/
 
@@ -557,6 +566,19 @@
   }
   .relative {
     position: relative;
+  }
+
+  /* ------- Display --------*/
+  .sm-inline-block {
+    display: inline-block;
+  }
+
+  /* ------- Border ---------*/
+  .border-bl-0 {
+    border-bottom-left-radius: 0px;
+  }
+  .border-tl-0 {
+    border-top-left-radius: 0px;
   }
   
 }
