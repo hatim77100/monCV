@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 *,
 ::before,
@@ -44,6 +44,9 @@
 .bg-beige {
   background: beige;
 }
+.bg-white {
+  background: whitesmoke;
+}
 .bg-black {
   background-color: #333;
 }
@@ -86,7 +89,13 @@
   height: 5rem;
 }
 .h-40 {
+  height: 170px;
+}
+.h-50{
   height: 150px;
+}
+.h-170 {
+  height: 170px;
 }
 .h-2-4 {
   height: 50%;
@@ -116,6 +125,11 @@
   width: 100%;
 }
 
+/*----- Rounded -----------*/
+
+.rounded-full	{
+  border-radius: 9999px;
+}
 /*------- Text ------------*/
 
 .decoration-none {
@@ -309,7 +323,12 @@
 .m-0 {
   margin: 0;
 }
-
+.m-2 {
+  margin: 0.2rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
 /* -------Box ---------*/
 
 .box-border {
@@ -344,9 +363,9 @@
 /* --------------------------- */ 
 
 @media screen and (min-width: 768px) {
-  .lg-text-xl {
-    font-size: 2rem; /* 20px */
-  }
+
+  /*----------- Grid -----------*/
+
   .lg-grid-cols-4 {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -370,7 +389,7 @@
   .md-col-end-5 {
     grid-column-end: 5;
   }
-
+  
   .md-col-end-6 {
     grid-column-end: 6;
   }
@@ -391,15 +410,36 @@
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
+  
+  /*-------------- Text ------------*/
+  
   .md-text-center {
     text-align: center;
   }
   .md-font-medium {
     font-size: small;
   }
+  .lg-text-xl {
+    font-size: 2rem; /* 20px */
+  }
   .md-tracking-wide {
     letter-spacing: 0.025em;
   }
+  .md-text-xl {
+    font-size: 1rem;
+  }
+  .md-text-sm {
+    font-size: 0.675rem;
+  }
+  .md-text-xsm {
+    font-size: 0.7rem;
+  }
+  .md-text-slate-400	{
+   color: rgb(15 23 42);;
+  }
+
+  /*----------- Padding --------------*/
+
   .md-pt-4 {
     padding-top: 1rem;
   }
@@ -409,7 +449,42 @@
   .md-pl-4 {
     padding-left: 1rem;
   }
-}
+  .md-pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  /*------------- Shadow -------------*/
+  .md-shadow-lg	{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+
+  /*------ Margin -------*/
+
+  .md-mt-8 {
+    margin-top: 2rem;
+  }
+  .md-mb-8 {
+    margin-bottom: 2rem;
+  }
+  .md-mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+
+  /*------- Background --------*/
+  
+  .md-bg-violet-300 {
+    background-color: rgb(116, 91, 213);
+  }
+
+  /*---------- Border radius ------*/
+
+  .md-rounded-md	{
+    border-radius: 0.375rem;
+  }
+
+  }
 
 @media screen and (max-width: 430px) {
   .hidden {

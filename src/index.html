@@ -9,15 +9,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>CV Hatim Najoua</title>
 
 </head>
 
 <body class="font-verdana overflow-x-hidden w-full">
   <!------ header----- -->
-  <header class=" h-40 bg-black grid-cols-3">
-    <div class="col-span-1">
-      <img src="./assets/img/hatim.png" alt="image de profil" class="w-40 h-40 p-4">
+  <header class=" h-40 bg-black grid-cols-3 w-full h-170">
+    <div class="col-span-1 p-1 w-full flex justify-center items-center">
+      <img src="./assets/img/hatim.png" alt="image de profil" class="w-40 h-50 p-4 rounded-full bg-white">
     </div>
     <div class="col-span-2 flex flex-col justify-center items-center">
       <h1 class="text-white uppercase text-xl-t lg-text-xl">Hatim Najoua</h1>
@@ -27,26 +28,28 @@
   <div class="grid-cols-8 md-grid-cols-8">
     <aside class="col-start-1 col-end-4 md-col-start-1 md-col-end-3 bg-gradient-to-b h-full">
       <!-- rows1 -->
-      <div class="m-0 ">
-        <h3 class="text-center sm-text-sms font-bold uppercase py-2 md-tracking-wide text-violet-500">Compétences</h3>
+      <div class="m-0 md-shadow-lg md-mt-8 md-bg-violet-300 md-rounded-md md-mx-2" data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+        data-aos-anchor-placement="top-center">
+        <h3 class="text-center sm-text-sms md-text-xl font-bold uppercase py-2 md-tracking-wide text-violet-500">Compétences</h3>
         <div>
           <p class="border-bottom "></p>
         </div>
-        <div class="flex flex-col sm-p-0 p-4 ">
+        <div class="flex flex-col sm-p-0 p-4 md-font-medium ">
           <div class=" uppercase font-bold grid-cols-2 sm-p-2">
-            <p class="sm-text-sm opacity">Html/Css</p>
-            <div class="bg-black p-1 box-border border-skill rounded-sm w-4-5 sm-place-self-end">
+            <p class="sm-text-sm opacity md-text-xsm ">Html/Css</p>
+            <div class="bg-black p-1 box-border border-skill rounded-sm w-4-5 sm-place-self-end ">
               <div class="bg-gradient-to-r w-3-4 h-2-5"></div>
             </div>
           </div>
           <div class=" uppercase font-bold grid-cols-2 py-4 sm-p-2">
-            <p class="sm-text-sm opacity">JS</p>
+            <p class="sm-text-sm opacity md-text-xsm">JS</p>
             <div class="bg-black p-1 box-border border-skill rounded-sm w-4-5 sm-place-self-end">
               <div class="bg-gradient-to-r w-2-4 h-2-5"></div>
             </div>
           </div>
           <div class=" uppercase font-bold grid-cols-2 sm-p-2">
-            <p class="sm-text-sm opacity">Php/Sql</p>
+            <p class="sm-text-sm opacity md-text-xsm">Php/Sql</p>
             <div class="bg-black p-1 box-border border-skill rounded-sm w-4-5 sm-place-self-end">
               <div class="bg-gradient-to-r w-1-4 h-2-5"></div>
             </div>
@@ -54,14 +57,24 @@
         </div>
       </div>
       <!-- row2 hard skills -->
-      <div>
-        <h3 class=" uppercase text-center font-bold py-2 tracking-wide sm-text-sms text-violet-500 sm-mt-4">Hard skills</h3>
+      <div class="md-shadow-lg md-mt-8 md-bg-violet-300 md-rounded-md md-mx-2"
+      data-aos="slide-right" 
+      data-aos-anchor-placement="top-bottom" 
+      data-aos-offset="200" 
+      data-aos-delay="50"
+      data-aos-duration="1500" 
+      data-aos-easing="ease-in-out" 
+      data-aos-mirror="true" 
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center">
+        <h3 class=" uppercase text-center font-bold py-2 tracking-wide sm-text-sms text-violet-500 md-text-xl sm-mt-4">Hard skills
+        </h3>
         <div>
           <p class="border-bottom "></p>
         </div>
-        <div class=" pt-4 sm-text-sm pl-4">
+        <div class=" pt-4 md-pb-4 sm-text-sm pl-4">
           <div class="bg-t">
-            <ul class="list-none text-white">
+            <ul class="list-none text-white md-text-slate-400">
               <li>React.js</li>
               <li>Webpack</li>
               <li>Github</li>
@@ -78,14 +91,23 @@
         </div>
       </div>
       <!-- row3 -->
-      <div class="">
-        <h3 class="uppercase text-center py-2 tracking-wide sm-text-sms text-violet-500 sm-mt-4">Soft skills</h3>
+      <div class="md-shadow-lg md-mt-8 md-bg-violet-300 md-rounded-md md-mx-2"  
+      data-aos="zoom-in-right" 
+      data-aos-anchor-placement="top-bottom" 
+      data-aos-offset="200" 
+      data-aos-delay="50"
+      data-aos-duration="800" 
+      data-aos-easing="ease-in-out" 
+      data-aos-mirror="true" 
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center">
+        <h3 class="uppercase text-center py-2 tracking-wide sm-text-sms text-violet-500 sm-mt-4 md-text-xl">Soft skills</h3>
         <div>
           <p class="border-bottom "></p>
         </div>
-        <div class="pt-4 pl-4 sm-text-sm">
+        <div class="pt-4 pb-4 pl-4 sm-text-sm">
           <div class="bg-t ">
-            <ul class="list-none text-white">
+            <ul class="list-none text-white md-text-slate-400">
               <li>.autonomie</li>
               <li>.éthique professionnelle</li>
               <li>.capacité d'apprentissage</li>
@@ -98,32 +120,52 @@
       </div>
 
       <!-- row4 liens -->
-      <div class="text-center">
-        <h3 class="uppercase text-center py-2 tracking-wide sm-text-sms text-violet-500 sm-mt-4">liens</h3>
+      <div class="text-center md-shadow-lg md-mt-8 md-bg-violet-300 md-rounded-md md-mx-2"
+      data-aos="zoom-in-right" 
+      data-aos-anchor-placement="top-bottom" 
+      data-aos-offset="200" 
+      data-aos-delay="50"
+      data-aos-duration="800" 
+      data-aos-easing="ease-in-out" 
+      data-aos-mirror="true" 
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center">
+      
+        <h3 class="uppercase text-center py-2 tracking-wide sm-text-sms text-violet-500 sm-mt-4 md-text-xl">liens</h3>
         <div>
           <p class="border-bottom "></p>
         </div>
-        <div class="pt-4 flex flex-col bg-t sm-mt-4 border-bl-0 border-tl-0">
-            <span class="grid-cols-2 txt-gray sm-text-smm">
-              <a href="https://github.com/hatim77100" target="_blank" rel="noreferrer noopener" class="decoration-none">
-                <i class="fa-brands fa-github txt-blue fa-xl"></i>
-              </a> <span class="sm-place-self-start opacity txt-blue">Github</span>
-            </span>
-            <span class=" grid-cols-2 sm-pt-2 txt-gray sm-text-smm">
-              <a href="#" target="_blank" rel="noreferrer noopener" class="decoration-none">
-                <i class="fa-brands fa-linkedin txt-blue fa-xl"></i>
-              </a><span class="sm-place-self-start opacity txt-blue"> Linkedin</span>
-            </span>
+        <div class="pt-4 flex flex-col bg-t sm-mt-4 border-bl-0 border-tl-0 md-text-slate-400 md-pb-4">
+          <span class="grid-cols-2 txt-gray sm-text-smm">
+            <a href="https://github.com/hatim77100" target="_blank" rel="noreferrer noopener" class="decoration-none">
+              <i class="fa-brands fa-github txt-blue fa-xl"></i>
+            </a> <span class="sm-place-self-start opacity txt-blue">Github</span>
+          </span>
+          <span class=" grid-cols-2 sm-pt-2 txt-gray sm-text-smm">
+            <a href="#" target="_blank" rel="noreferrer noopener" class="decoration-none">
+              <i class="fa-brands fa-linkedin txt-blue fa-xl"></i>
+            </a><span class="sm-place-self-start opacity txt-blue"> Linkedin</span>
+          </span>
         </div>
       </div>
       <!-- row5 -->
-      <div class="">
-        <h3 class="uppercase text-center py-2 tracking-wide sm-text-sms text-violet-500 sm-mt-4">Centres d'intérêts</h3>
+      <div class="md-shadow-lg md-mt-8 md-bg-violet-300 md-rounded-md md-mx-2"
+      data-aos="slide-right" 
+      data-aos-anchor-placement="top-bottom" 
+      data-aos-offset="200" 
+      data-aos-delay="50"
+      data-aos-duration="800" 
+      data-aos-easing="ease-in-out" 
+      data-aos-mirror="true" 
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center">
+      
+        <h3 class="uppercase text-center py-2 tracking-wide sm-text-sms text-violet-500 sm-mt-4 md-text-xl">Centres d'intérêts</h3>
         <div>
           <p class="border-bottom "></p>
         </div>
         <div class="pt-4 pl-4">
-          <div class="bg-t text-white opacity">
+          <div class="bg-t text-white opacity md-text-slate-400 pb-4">
 
             <h4 class="sm-text-sxm txt-gray">Informatique</h4>
             <span class="sm-text-sm ">Programmation</span>
@@ -137,8 +179,18 @@
         </div>
       </div>
       <!-- row6 -->
-      <div class="">
-        <h3 class=" uppercase text-center md-p-4 py-2 tracking-wide sm-text-sms text-violet-500 sm-mt-4">Infos & contact
+      <div class="md-shadow-lg md-mt-8 md-bg-violet-300 md-rounded-md md-mb-8 md-mx-2"
+      data-aos="zoom-in" 
+      data-aos-anchor-placement="top-bottom" 
+      data-aos-offset="200" 
+      data-aos-delay="50"
+      data-aos-duration="800" 
+      data-aos-easing="ease-in-out" 
+      data-aos-mirror="true" 
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center">
+      
+        <h3 class=" uppercase text-center md-p-4 py-2 tracking-wide sm-text-sms text-violet-500 md-text-xl sm-mt-4">Infos & contact
         </h3>
         <div>
           <p class="border-bottom "></p>
@@ -150,7 +202,7 @@
           </div>
           <div class="grid-cols-2-infos">
             <i class="fa-solid fa-envelope fa-lg"></i>
-            <span class="sm-text-xsm "> najouhatim@gmail.com</span>
+            <span class="sm-text-xsm md-text-sm"> najouhatim@gmail.com</span>
           </div>
           <div class=" py-4 grid-cols-2-infos">
             <i class="fa-solid fa-location-dot fa-lg"></i>
@@ -165,7 +217,17 @@
     </aside>
     <!-- expériences professionnelle -->
     <div class=" col-start-4 col-end-9 md-col-start-3 md-col-end-9 px-8 bg-img w-full sm-grid-rows-3">
-      <div>
+      <div
+      data-aos="zoom-in" 
+      data-aos-anchor-placement="top-bottom" 
+      data-aos-offset="200" 
+      data-aos-delay="50"
+      data-aos-duration="800" 
+      data-aos-easing="ease-in-out" 
+      data-aos-mirror="true" 
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+      >
         <!-- Formation -->
         <h1 class="text-center uppercase font-bold text-xl-t sm-text-smx pt-4 txt-violet">formations</h1>
         <div class="py-2">
@@ -201,7 +263,17 @@
           </p>
         </div>
       </div>
-      <div>
+      <div
+      data-aos="zoom-in" 
+      data-aos-anchor-placement="top-bottom" 
+      data-aos-offset="200" 
+      data-aos-delay="50"
+      data-aos-duration="800" 
+      data-aos-easing="ease-in-out" 
+      data-aos-mirror="true" 
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+      >
         <h1 class=" uppercase pt-4 font-bold text-xl-t text-center sm-text-smx txt-violet">expériences professionnelles
         </h1>
         <div class="py-2 w-full">
@@ -237,8 +309,18 @@
           </p>
         </div>
       </div>
-      <div>
-        <!------ Diplomes ------->
+      <!------------ Diplomes ------------>
+      <div
+      data-aos="zoom-in" 
+      data-aos-anchor-placement="top-bottom" 
+      data-aos-offset="200" 
+      data-aos-delay="50"
+      data-aos-duration="800" 
+      data-aos-easing="ease-in-out" 
+      data-aos-mirror="true" 
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+      >
         <h1 class="text-center uppercase font-bold text-xl-t sm-text-smx pt-4 txt-violet">diplômes</h1>
         <div class=" py-2">
           <p class="border-bottom "></p>
@@ -253,11 +335,11 @@
           </p>
           </p>
           <p class="sm-pt-4 md-pt-4 ">
-          <h4 class="font-semibold pb-0-5 sm-text-sms">Baccalauréat (Maroc)</h4>
+          <h4 class="font-semibold pb-0-5 sm-text-sms">Baccalauréat sciences (Maroc)</h4>
           <span class="italic sm-text-smm">2000-2001</span>
           <ul class="pl-4 sm-text-smm sm-pb-4">
-            <li>Analyses macro-économique</li>
-            <li>Analyses technique des graphes</li>
+            <li>Mathématique abstraite</li>
+            <li>physique</li>
             <li>Gestion de la psychologie de trading</li>
           </ul>
           </p>
@@ -265,8 +347,12 @@
       </div>
     </div>
   </div>
-  <footer class="h-20 w-full bg-black text-white decoration-none">
-    <div class="flex justify-center items-center h-full">
+  <footer class="h-20 w-full bg-black text-white decoration-none"
+ 
+  >
+    <div class="flex justify-center items-center h-full"
+   
+    >
       <span class="italic px-4">Copyright &copy;</span>
       <div>
         <span>
