@@ -440,10 +440,10 @@
     font-size: 1rem;
   }
   .md-text-sm {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
   .md-text-xsm {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .md-text-slate-400	{
    color: rgb(15 23 42);;
@@ -509,6 +509,11 @@
     margin-bottom: 0.4rem;
     display: inline-block;
   }
+  .md-mt-2 {
+    margin-top: 0.5rem;
+  }
+  
+  
 
   /*------- Background --------*/
   
