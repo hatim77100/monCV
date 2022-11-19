@@ -423,7 +423,10 @@
   }
   
   /*-------------- Text ------------*/
-  
+
+  .md-txt {
+    color: darkblue;
+  }
   .md-text-center {
     text-align: center;
   }
