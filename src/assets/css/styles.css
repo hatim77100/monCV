@@ -69,8 +69,8 @@
 .bg-gradient-to-r {
   background: linear-gradient(
     to bottom right,
-    rgb(184, 172, 235),
-    rgb(192, 217, 238)
+    rgb(148, 146, 238),
+    rgb(136, 138, 250)
   );
 }
 
@@ -131,6 +131,14 @@
   border-radius: 9999px;
 }
 /*------- Text ------------*/
+
+.text-gradient {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#eee, rgb(202, 186, 186));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .decoration-none {
   text-decoration: none;
@@ -356,6 +364,9 @@
 
 /* ---------- List -------- */
 
+.list-inside	{
+  list-style-position: inside;
+}
 .list-none	{
   list-style-type: none;
 }
@@ -429,7 +440,7 @@
     font-size: 1rem;
   }
   .md-text-sm {
-    font-size: 0.675rem;
+    font-size: 0.75rem;
   }
   .md-text-xsm {
     font-size: 0.7rem;
@@ -437,6 +448,16 @@
   .md-text-slate-400	{
    color: rgb(15 23 42);;
   }
+  .md-title-text-gradient {
+    font-size: 20px;
+    background: -webkit-linear-gradient(rgb(236, 236, 236), rgb(255, 229, 229));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .md-text-xxl {
+    font-size: 1.5rem;
+  }
+
 
   /*----------- Padding --------------*/
 
@@ -452,10 +473,20 @@
   .md-pb-4 {
     padding-bottom: 1rem;
   }
+  .md-py-2 {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+  .md-pt-2 {
+    padding-top: 0.4rem;
+  }
 
   /*------------- Shadow -------------*/
   .md-shadow-lg	{
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+  .md-bg-img {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   }
 
   /*------ Margin -------*/
@@ -470,13 +501,29 @@
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
-  
+  .md-relative {
+    position: relative;
+  }
+  .md-my-2 {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    display: inline-block;
+  }
 
   /*------- Background --------*/
   
   .md-bg-violet-300 {
     background-color: rgb(116, 91, 213);
   }
+  .md-bg-violet-100 {
+    background-color:  rgb(141, 105, 240);
+  }
+  .md-bg-wave {
+    background-image: url('../img/bg-wave-body.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
   /*---------- Border radius ------*/
 
