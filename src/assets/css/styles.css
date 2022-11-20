@@ -381,6 +381,10 @@
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+  .md-grid-cols-3	{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
   .lg-grid-rows-6 {
     display: grid;
     grid-template-rows: repeat(6, minmax(0, 1fr));
@@ -421,7 +425,16 @@
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-  
+
+  /*--------Flex-----------*/
+
+  .md-flex-col	{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   /*-------------- Text ------------*/
 
   .md-txt {
@@ -448,6 +461,9 @@
   .md-text-xsm {
     font-size: 0.8rem;
   }
+  .md-text-xsmx {
+    font-size: 0.6rem;
+  }
   .md-text-slate-400	{
    color: rgb(15 23 42);;
   }
@@ -460,6 +476,7 @@
   .md-text-xxl {
     font-size: 1.5rem;
   }
+
 
 
   /*----------- Padding --------------*/
@@ -515,8 +532,12 @@
   .md-mt-2 {
     margin-top: 0.5rem;
   }
+
+  /*-------- Display --------*/
   
-  
+  .md-hidden	{
+    display: none;
+  }
 
   /*------- Background --------*/
   
